@@ -1,4 +1,4 @@
-/*body {
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -6,12 +6,6 @@
     display: grid;
     grid-template: 30px 30px 30px 30px 30px/90px 75px 87px 150px;
     height: 90px;
-
-}
-
-.nametxt {
-    grid-row: 1/2;
-    grid-column: 2/3;
 }
 
 .name {
@@ -19,11 +13,31 @@
     grid-column: 1/2;
 }
 
-.req{
+.nametxt {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.reqname{
     grid-row: 1/2;
     grid-column: 4/5;
     color: red;
     
+}
+
+.extension {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.extensiontxt {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.reqext{
+    grid-row: 3/4;
+    grid-column: 4/5;
+    color: red;
 }
 
 .title {
@@ -40,134 +54,6 @@
     grid-column: 4/5;
     color: red;
 
-}
-
-.extension {
-    grid-row: 3/4;
-    grid-column: 1/2;
-}
-
-.extensiontxt {
-    grid-row: 3/4;
-    grid-column: 2/3;
-
-}
-.reqext{
-    grid-row: 3/4;
-    grid-column: 4/5;
-    color: red;
-    
-}
-
-button {
-    background-color: #4f9cda;
-    color: white;
-    grid-row: 4/5;
-    grid-column: 3/4;
-
-}
-
-input {
-    border: solid rgb(102, 104, 216) 1.1px;
-}
-
-small{
-    display: none;
-    padding-left: 8px;
-}
-
-table {
-    align-items: center;
-    width: 600px;
-}
-
-thead tr {
-    font-weight: bold;
-    color: white;
-    background-color: #4f9cda !important;
-}
-
-td {
-    width: 150px;
-    padding: 10px 5px;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-tr:nth-of-type(n) {
-    background-color: #d2dff1;
-}
-
-tr:nth-of-type(2n) {
-    background-color: #eaf0f8;
-}
-
-tr td:nth-of-type(4) {
-    text-align: center;
-}
-
-.del-btn {
-    padding: 3px 20px;
-}*/
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    display: grid;
-    height: 90px;
-    grid-template: 30px 30px 30px 30px 30px/90px 75px 87px 150px    ;
-
-}
-
-.name {
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-
-.namet {
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
-.reqn{
-    grid-row: 1/2;
-    grid-column: 4/5;
-    color: red;
-    
-}
-
-.title {
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-.titlet {
-    grid-row: 2/3;
-    grid-column: 2/3;
-}
-.reqt{
-    grid-row: 2/3;
-    grid-column: 4/5;
-    color: red;
-
-}
-
-.extension {
-    grid-row: 3/4;
-    grid-column: 1/2;
-}
-
-.extensiont {
-    grid-row: 3/4;
-    grid-column: 2/3;
-
-}
-.reqe{
-    grid-row: 3/4;
-    grid-column: 4/5;
-    color: red;
-    
 }
 
 button {
